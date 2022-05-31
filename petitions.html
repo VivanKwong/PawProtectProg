@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <center>
+  <header class="pppTop">
+    <img src="catCompLogo.png" alt="cat computer logo" class="logo">
+    <h1><a href = "index.html" class = "ppp">🐾Paw Protection Program🐾</a></h1>
+  </header>
+  </center>
+  <body class="fireworks">
+    <ul class = "nav-bar">
+      <li class="home"><a href = "index.html" class = "navText"> HOME </a></li>
+      <li class="petitions"><a href = "petitions.html" class = "navText"> PETITIONS </a></li>
+      <li class="donating"><a href = "donations.html" class = "navText"> DONATIONS </a></li>
+      <li class="adopt"><a href = "adoptingFostering.html" class = "navText"> ADOPTING/FOSTERING </a></li>
+      <li class="habitat"><a href = "habitatProtection.html" class = "navText"> HABITAT PROTECTION </a></li>
+    </ul> </center>
+    
+    <center>
+    <h2>Sign PETitions to Help!</h2>
+    <section class="PETitions">
+      <div class="Endangered Species">
+        <button onclick="myFunction()" class="dropdownbutton">Endangered Species</button>
+        <div id="myDropdown" class="dropdown-content displaynone">
+          <p class="pet"><a href ="https://theanimalrescuesite.greatergood.com/clicktogive/ars/petition/oceana-shark-fins" class="sign"> Petition to Ban the Trade of Shark Fins in the US </a></p>
+          <p class="pet"><a href ="https://www.thepetitionsite.com/takeaction/776/342/029/" class="sign"> Petition to Support the Big Cat Public Safety Act </a></p>
+          <p class="pet"><a href ="https://theanimalrescuesite.greatergood.com/clicktogive/ars/petition/exotic-pets" class="sign"> Petition for the USDA to Ban Exotic Pet Ownership </a></p>
+        </div>
+      </div>
+
+      <div class="Large Companies">
+        <button onclick="largecompanies()" class="dropdownbutton">Animal Cruelty</button>
+        <div id="myDropdown" class="dropdown-content-companies displaynone">
+          <p class="pet"><a href ="https://www.thepetitionsite.com/390/482/502/these-%E2%80%9Ccruelty-free%E2%80%9D-cosmetics-are-actually-made-by-torturing-and-skinning-animals/" class="sign"> Petition for Sephora and Ulta to supply ONLY Vegan Makeup Brushes </a></p>
+          <p class="pet"><a href ="https://www.thepetitionsite.com/472/626/540/the-sale-of-elephant-riding-holidays-could-be-banned-here-if-the-government-passes-this-law./" class="sign"> Petition for the British Government to Ban Elephant Tourism  </a></p>
+          <p class="pet"><a href ="https://theanimalrescuesite.greatergood.com/clicktogive/ars/petition/tiktok-abuse" class="sign"> Petition for TikTok to Ban ALL Animal Cruelty Videos </a></p>
+        </div>
+      </div>
+      
+      <div class="allowed">
+        <button onclick="dropAllowed()" class="dropdownbutton">Allowed Killing of Animals</button>
+        <div id="myDropdown" class="dropdown-content-allowed displaynone">
+          <p class="pet"><a href ="https://www.thepetitionsite.com/625/749/702/boycott-and-stop-the-killing-of-bulls-in-the-spanish-arenas/" class="sign"> Petition to Stop the Killing of Bulls in Spanish Arenas </a></p>
+          <p class="pet"><a href ="https://theanimalrescuesite.greatergood.com/clicktogive/ars/petition/fto-save-puffins" class="sign"> Petition for Iceland's Minister of the Environment to Stop Allowing the Trophy Hunting of Puffins </a></p>
+          <p class="pet"><a href ="https://www.change.org/p/aksel-v-johannesen-force-an-immediate-stop-to-the-slaughter-of-thousands-of-pilot-whales-and-dolphins?source_location=topic_page" class="sign"> Petition to Stop the Annual Mass Slaughter of Thousands of Pilot Whales and Dolphins in the Faroe Islands </a></p>
+        </div>
+      </div>
+      
+      <div class="domestic">
+        <button onclick="dropDomestic()" class="dropdownbutton">Domestic Animals</button>
+        <div id="myDropdown" class="dropdown-content-domestic displaynone">
+          <p class="pet"><a href ="https://www.thepetitionsite.com/takeaction/994/478/397/" class="sign"> Petition for Missouri to Allow Bystanders to Rescue Pets Trapped in Hot Cars </a></p>
+          <p class="pet"><a href ="https://theanimalrescuesite.greatergood.com/clicktogive/ars/petition/denver-pitbull" class="sign"> Petition to Repeal Denver, Colorado's Ban of Pit Bulls </a></p>
+        </div>
+      </div>
+      </center>
+      </section>
+
+   <script src="script.js"></script>
+  </body>
+</html>
